@@ -1,0 +1,52 @@
+GowinSynthesis start
+Running parser ...
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\baud_gen.v'
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\hamming_decoder.v'
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\hamming_encode.v'
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\main_top.v'
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\rx.v'
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v'
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_encoder.v'
+Analyzing Verilog file 'E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tx.v'
+WARN  (EX3073) : Port 'iter_used' remains unconnected for this instance("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\main_top.v":25)
+Compiling module 'main_top'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\main_top.v":1)
+Compiling module 'baud_rate_gen'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\baud_gen.v":2)
+Compiling module 'transmitter'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tx.v":1)
+Compiling module 'receiver'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\rx.v":1)
+Compiling module 'tpc_encoder_s'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_encoder.v":9)
+Extracting RAM for identifier 'row_code_reg'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_encoder.v":29)
+Extracting RAM for identifier 'col_code_reg'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_encoder.v":32)
+Compiling module 'hamming_encoder_8_4'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\hamming_encode.v":7)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_encoder.v":72)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_encoder.v":89)
+Compiling module 'tpc_decoder_hdd'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v":16)
+Compiling module 'hamming_decoder_8_4'("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\hamming_decoder.v":9)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v":128)
+WARN  (EX3791) : Expression size 7 truncated to fit in target size 6("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v":130)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v":141)
+WARN  (EX3791) : Expression size 17 truncated to fit in target size 16("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v":154)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v":167)
+WARN  (EX3791) : Expression size 4 truncated to fit in target size 3("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\tpc_decoder_hdd.v":173)
+WARN  (EX3791) : Expression size 5 truncated to fit in target size 4("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\main_top.v":63)
+WARN  (EX3791) : Expression size 32 truncated to fit in target size 4("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\main_top.v":95)
+NOTE  (EX0101) : Current top module is "main_top"
+[5%] Running netlist conversion ...
+WARN  (CV0016) : Input sys_rst_n is unused("E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\main_top.v":3)
+Running device independent optimization ...
+[10%] Optimizing Phase 0 completed
+[15%] Optimizing Phase 1 completed
+[25%] Optimizing Phase 2 completed
+Running inference ...
+[30%] Inferring Phase 0 completed
+[40%] Inferring Phase 1 completed
+[50%] Inferring Phase 2 completed
+[55%] Inferring Phase 3 completed
+Running technical mapping ...
+[60%] Tech-Mapping Phase 0 completed
+[65%] Tech-Mapping Phase 1 completed
+[75%] Tech-Mapping Phase 2 completed
+[80%] Tech-Mapping Phase 3 completed
+[90%] Tech-Mapping Phase 4 completed
+[95%] Generate netlist file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\gwsynthesis\hamming8_4.vg" completed
+[100%] Generate report file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\gwsynthesis\hamming8_4_syn.rpt.html" completed
+GowinSynthesis finish

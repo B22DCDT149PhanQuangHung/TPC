@@ -1,0 +1,17 @@
+-d E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\gwsynthesis\hamming8_4.vg
+-p GW1NR-9C-QFN88-6
+-pn GW1NR-LV9QN88C6/I5
+-cst E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\hamming8_4.cst
+-cfg E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\pnr\device.cfg
+-bit
+-tr
+-ph
+-timing
+-cst_error
+-convert_sdp32_36_to_sdp16_18
+-place_option 0
+-route_option 0
+-clock_route_order 0
+-correct_hold 1
+-route_maxfan 23
+-global_freq 50.000

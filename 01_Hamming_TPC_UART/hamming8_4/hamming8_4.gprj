@@ -1,0 +1,18 @@
+<?xml version="1" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW1NR-9C" pn="GW1NR-LV9QN88C6/I5">gw1nr9c-000</Device>
+    <FileList>
+        <File path="src/baud_gen.v" type="file.verilog" enable="1"/>
+        <File path="src/hamming_decoder.v" type="file.verilog" enable="1"/>
+        <File path="src/hamming_encode.v" type="file.verilog" enable="1"/>
+        <File path="src/main_top.v" type="file.verilog" enable="1"/>
+        <File path="src/rx.v" type="file.verilog" enable="1"/>
+        <File path="src/tpc_decoder_hdd.v" type="file.verilog" enable="1"/>
+        <File path="src/tpc_encoder.v" type="file.verilog" enable="1"/>
+        <File path="src/tx.v" type="file.verilog" enable="1"/>
+        <File path="src/hamming8_4.cst" type="file.cst" enable="1"/>
+    </FileList>
+</Project>

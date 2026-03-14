@@ -1,0 +1,45 @@
+{
+ "Device" : "GW1NR-9C",
+ "Files" : [
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/baud_gen.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/hamming_decoder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/hamming_encode.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/rx.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tpc_decoder_hdd.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tpc_encoder.v",
+   "Type" : "verilog"
+  },
+  {
+   "Path" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tx.v",
+   "Type" : "verilog"
+  }
+ ],
+ "IncludePath" : [
+
+ ],
+ "LoopLimit" : 2000,
+ "ResultFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/impl/temp/rtl_parser.result",
+ "Top" : "main_top",
+ "VerilogStd" : "verilog_2001",
+ "VhdlStd" : "vhdl_93"
+}

@@ -1,0 +1,72 @@
+[
+ {
+  "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+  "InstLine" : 1,
+  "InstName" : "main_top",
+  "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "main_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+    "InstLine" : 13,
+    "InstName" : "uart_baud",
+    "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/baud_gen.v",
+    "ModuleLine" : 2,
+    "ModuleName" : "baud_rate_gen"
+   },
+   {
+    "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+    "InstLine" : 14,
+    "InstName" : "uart_tx",
+    "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "transmitter"
+   },
+   {
+    "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+    "InstLine" : 15,
+    "InstName" : "uart_rx",
+    "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/rx.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "receiver"
+   },
+   {
+    "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+    "InstLine" : 24,
+    "InstName" : "tpc_enc",
+    "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tpc_encoder.v",
+    "ModuleLine" : 9,
+    "ModuleName" : "tpc_encoder_s",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tpc_encoder.v",
+      "InstLine" : 40,
+      "InstName" : "enc_inst",
+      "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/hamming_encode.v",
+      "ModuleLine" : 7,
+      "ModuleName" : "hamming_encoder_8_4"
+     }
+    ]
+   },
+   {
+    "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/main_top.v",
+    "InstLine" : 25,
+    "InstName" : "tpc_dec",
+    "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tpc_decoder_hdd.v",
+    "ModuleLine" : 16,
+    "ModuleName" : "tpc_decoder_hdd",
+    "SubInsts" : [
+     {
+      "InstFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/tpc_decoder_hdd.v",
+      "InstLine" : 63,
+      "InstName" : "ham",
+      "ModuleFile" : "E:/SAVEGOWIN/06_DOAN/01_Hamming_TPC_UART/hamming8_4/src/hamming_decoder.v",
+      "ModuleLine" : 9,
+      "ModuleName" : "hamming_decoder_8_4"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,30 @@
+Reading netlist file: "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\gwsynthesis\hamming8_4.vg"
+Parsing netlist file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\gwsynthesis\hamming8_4.vg" completed
+Processing netlist completed
+Reading constraint file: "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\src\hamming8_4.cst"
+Physical Constraint parsed completed
+Running placement......
+[10%] Placement Phase 0 completed
+[20%] Placement Phase 1 completed
+[30%] Placement Phase 2 completed
+WARN  (TA1132) :  'clk' was determined to be a clock but was not created.
+[50%] Placement Phase 3 completed
+Running routing......
+[60%] Routing Phase 0 completed
+[70%] Routing Phase 1 completed
+[80%] Routing Phase 2 completed
+[90%] Routing Phase 3 completed
+Running timing analysis......
+[95%] Timing analysis completed
+Placement and routing completed
+Bitstream generation in progress......
+Bitstream generation completed
+Running power analysis......
+[100%] Power analysis completed
+Generate file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\pnr\hamming8_4.power.html" completed
+Generate file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\pnr\hamming8_4.pin.html" completed
+Generate file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\pnr\hamming8_4.rpt.html" completed
+Generate file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\pnr\hamming8_4.rpt.txt" completed
+Generate file "E:\SAVEGOWIN\06_DOAN\01_Hamming_TPC_UART\hamming8_4\impl\pnr\hamming8_4.tr.html" completed
+Sat Mar 14 11:47:51 2026
+
